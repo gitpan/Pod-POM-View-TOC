@@ -1,11 +1,11 @@
 #!/usr/bin/perl
 
+use Test::More tests => 1;
 use strict;
 use lib qw( lib ../lib );
 use Pod::POM;
 use Pod::POM::View::HTML;
 
-use Test::More tests => 1;
 
 
 
